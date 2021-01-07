@@ -1,0 +1,34 @@
+{
+  "name": "esmodule-no-module-doing-something",
+  "version": "1.0.0",
+  "description": "testing out esmodules",
+  "main": "index.html",
+  "scripts": {
+    "build:legacy": "babel app.js --config-file --out-file babel-legacy.config.json app.legacy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackHowa/esmodule-no-module-doing-something.git"
+  },
+  "keywords": [
+    "esmodules",
+    "nomodule",
+    "module",
+    "mjs"
+  ],
+  "author": "jackhowa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackHowa/esmodule-no-module-doing-something/issues"
+  },
+  "homepage": "https://github.com/JackHowa/esmodule-no-module-doing-something#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
