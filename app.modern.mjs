@@ -23,11 +23,11 @@ var arbitraryFlex = /*#__PURE__*/function () {
   };
 }();
 
-// Classes (ES2015)
 class Location {
   constructor(county) {
     this.county = county;
   }
+
 }
 
 var currentLocation = new Location('West Sussex');
