@@ -19,3 +19,4 @@ do crazy something with nomodule/module
 - default broswerlistrc https://babeljs.io/docs/en/babel-preset-env#no-targets
 - module https://babeljs.io/docs/en/babel-preset-env#targetsesmodules
 - transform regenerator via error `SCRIPT5009: 'regeneratorRuntime' is undefined` https://stackoverflow.com/a/36821986/7491536
+- https://babeljs.io/docs/en/babel-plugin-transform-runtime
