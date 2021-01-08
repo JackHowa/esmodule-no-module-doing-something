@@ -1,0 +1,1 @@
+(()=>{const o=`${["testing","esmodules","tonight"].join(" ")}`;(async s=>{console.log(o),console.log(s)})(new class{constructor(o){this.county=o}}("West Sussex").county)})();

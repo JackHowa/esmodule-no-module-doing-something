@@ -24,3 +24,5 @@ do crazy something with nomodule/module
 - https://babeljs.io/docs/en/babel-plugin-transform-runtime
 - https://philipwalton.com/articles/deploying-es2015-code-in-production-today/
 - https://github.com/babel/preset-modules#babelpreset-modules
+- https://css-tricks.com/differential-serving/
+- jason miller preset modules https://babeljs.io/blog/2020/03/16/7.9.0
