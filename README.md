@@ -22,3 +22,5 @@ do crazy something with nomodule/module
 - module https://babeljs.io/docs/en/babel-preset-env#targetsesmodules
 - transform regenerator via error `SCRIPT5009: 'regeneratorRuntime' is undefined` https://stackoverflow.com/a/36821986/7491536
 - https://babeljs.io/docs/en/babel-plugin-transform-runtime
+- https://philipwalton.com/articles/deploying-es2015-code-in-production-today/
+- https://github.com/babel/preset-modules#babelpreset-modules
