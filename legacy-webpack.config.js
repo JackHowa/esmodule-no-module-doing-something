@@ -1,5 +1,6 @@
 module.exports = {
-  mode: 'production',
+  // still debugging this live with parallels
+  mode: 'development',
   entry: './app.js',
   output: {
     filename: 'app.legacy.js',
