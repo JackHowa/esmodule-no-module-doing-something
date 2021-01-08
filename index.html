@@ -13,5 +13,12 @@
     <p>faceoff</p>
     <script type="module" src="app.modern.mjs"></script>
     <script nomodule defer src="app.legacy.js"></script>
+
+    <script type="module">
+      console.log("type module");
+    </script>
+    <script nomodule defer>
+      console.log("nomodule");
+    </script>
   </body>
 </html>

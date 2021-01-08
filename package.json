@@ -4,8 +4,9 @@
   "description": "testing out esmodules",
   "main": "index.html",
   "scripts": {
-    "build:legacy": "babel app.js --config-file --out-file babel-legacy.config.json app.legacy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:legacy": "babel app.js --config-file babel-legacy.config.json --out-file  app.legacy.js",
+    "build:modern": "babel app.js --config-file babel-modern.config.json --out-file  app.modern.mjs",
+    "build": "npm run build:modern && npm run build:legacy"
   },
   "repository": {
     "type": "git",
