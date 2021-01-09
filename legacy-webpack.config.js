@@ -16,10 +16,21 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ["@babel/preset-env"],
-            "plugins": [["@babel/plugin-transform-runtime", {
-              "helpers": false,
-            }]],
+            presets: [
+              [
+                '@babel/preset-env',
+                {
+                  targets: {
+                    edge: '14',
+                    ie: '11',
+                    firefox: '52',
+                    chrome: '43',
+                    safari: '9',
+                  },
+                },
+              ],
+            ],
+            plugins: ['@babel/plugin-transform-regenerator'],
           }
         }
       }
