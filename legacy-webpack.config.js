@@ -28,7 +28,8 @@ module.exports = {
                 },
               ],
             ],
-            plugins: ['@babel/plugin-transform-regenerator'],
+            plugins: ['@babel/plugin-transform-regenerator', ['@babel/plugin-transform-arrow-functions', { spec: true }],
+            ]
           }
         }
       }
