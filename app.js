@@ -1,3 +1,7 @@
+// hopefully not used in modern
+
+import '@babel/runtime/regenerator'
+
 const destructureThisArr = ['testing', 'esmodules']
 
 // destructure
@@ -15,7 +19,7 @@ const arbitraryFlex = async (county) => {
 }
 
 class Location {
-  constructor(county){
+  constructor(county) {
     this.county = county
   }
 }

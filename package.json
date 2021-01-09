@@ -2,12 +2,11 @@
   "name": "esmodule-no-module-doing-something",
   "version": "1.0.0",
   "description": "testing out esmodules",
-  "main": "index.html",
   "scripts": {
     "build:legacy:webpack": "webpack --config legacy-webpack.config.js",
     "build:modern": "webpack --config modern-webpack.config.js",
     "build:legacy": "babel app.js --config-file ./babel-legacy.config.json --out-file  ./dist/app.legacy.js",
-    "build": "npm run build:modern && npm run build:legacy"
+    "build": "npm run build:modern && npm run build:legacy:webpack"
   },
   "repository": {
     "type": "git",

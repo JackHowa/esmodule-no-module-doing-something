@@ -1,8 +1,12 @@
+const path = require('path');
+
 module.exports = {
   mode: 'production',
   entry: './app.js',
   output: {
     filename: 'app.modern.mjs',
+    path: path.resolve(__dirname, 'dist'),
+
   },
   module: {
     rules: [
@@ -13,15 +17,16 @@ module.exports = {
           options: {
             presets: [
               [
-              "@babel/preset-env",
-              {
-                "targets": {
-                  "esmodules": true
-                },
-                "bugfixes": true
-              }
+                "@babel/preset-env",
+                {
+                  "targets": {
+                    "esmodules": true
+                  },
+                  "bugfixes": true
+                }
               ],
-            ]
+            ],
+            "plugins": ["@babel/transform-arrow-functions", "@babel/plugin-transform-runtime"]
           }
         }
       }
