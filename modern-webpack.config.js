@@ -12,6 +12,7 @@ module.exports = {
     rules: [
       {
         test: /\.m?js$/,
+        exclude: [/regenerator-runtime/],
         use: {
           loader: 'babel-loader',
           options: {
