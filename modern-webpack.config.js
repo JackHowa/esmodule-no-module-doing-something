@@ -26,7 +26,7 @@ module.exports = {
                 }
               ],
             ],
-            plugins: ['@babel/plugin-transform-regenerator']
+            plugins: ['@babel/plugin-transform-runtime']
           }
         }
       }

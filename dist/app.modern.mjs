@@ -1,1 +1,1 @@
-(()=>{const n=`${["testing","esmodules","tonight"].join(" ")}`,e=new class{constructor(n){this.county=n}}("West Sussex");var s;s=e.county,regeneratorRuntime.async((function(e){for(;;)switch(e.prev=e.next){case 0:console.log(n),console.log(s);case 2:case"end":return e.stop()}}),null,null,null,Promise)})();
+(()=>{const o=`${["testing","esmodules","tonight"].join(" ")}`;(async s=>{console.log(o),console.log(s)})(new class{constructor(o){this.county=o}}("West Sussex").county)})();
