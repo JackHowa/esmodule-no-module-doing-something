@@ -26,3 +26,4 @@ do crazy something with nomodule/module
 - https://github.com/babel/preset-modules#babelpreset-modules
 - https://css-tricks.com/differential-serving/
 - jason miller preset modules https://babeljs.io/blog/2020/03/16/7.9.0
+- https://github.com/babel/babel-loader/issues/754
