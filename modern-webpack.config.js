@@ -26,7 +26,6 @@ module.exports = {
                 }
               ],
             ],
-            "plugins": ["@babel/transform-arrow-functions", "@babel/plugin-transform-runtime"]
           }
         }
       }

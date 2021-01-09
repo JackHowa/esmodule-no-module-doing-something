@@ -1,7 +1,5 @@
 // hopefully not used in modern
 
-import '@babel/runtime/regenerator'
-
 const destructureThisArr = ['testing', 'esmodules']
 
 // destructure

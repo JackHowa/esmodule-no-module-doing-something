@@ -17,13 +17,12 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ["@babel/preset-env"],
-            "plugins": ["@babel/transform-arrow-functions", "@babel/plugin-transform-runtime"],
+            "plugins": [["@babel/plugin-transform-runtime", {
+              "helpers": false,
+            }]],
           }
         }
       }
     ]
-  },
-  externals: {
-    '@babel/runtime': '@babel/runtime'
   }
 };
