@@ -6,6 +6,9 @@ module.exports = {
   output: {
     filename: 'app.legacy.js',
     path: path.resolve(__dirname, 'dist'),
+    environment: {
+      arrowFunction: false
+    }
   },
   module: {
     rules: [
@@ -28,8 +31,7 @@ module.exports = {
                 },
               ],
             ],
-            plugins: [['@babel/plugin-transform-arrow-functions', { spec: true }],
-            ]
+            plugins: ['@babel/plugin-transform-runtime', ['@babel/plugin-transform-arrow-functions', { spec: true }]],
           }
         }
       }
