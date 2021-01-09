@@ -1,13 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  // still debugging this live with parallels
   mode: 'production',
   entry: './app.js',
   output: {
     filename: 'app.legacy.js',
     path: path.resolve(__dirname, 'dist'),
-
   },
   module: {
     rules: [
