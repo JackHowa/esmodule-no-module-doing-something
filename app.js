@@ -1,3 +1,5 @@
+// hopefully not used in modern
+
 const destructureThisArr = ['testing', 'esmodules']
 
 // destructure
@@ -15,7 +17,7 @@ const arbitraryFlex = async (county) => {
 }
 
 class Location {
-  constructor(county){
+  constructor(county) {
     this.county = county
   }
 }
