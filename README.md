@@ -5,9 +5,9 @@ do crazy something with nomodule/module
 - [x] transpile two outputs
 - [x] use nomodule/module pattern found in https://jakearchibald.com/2017/es-modules-in-browsers/#nomodule-for-backwards-compatibility
 - [x] test somehow with ie 11 -> used Parallels free trial
-- [ ] transpile output successfully (getting require error with regenerator runtime not found)
-- [ ] document webpack solution with regenerator runtime
-- [ ] pass estimator.dev
+- [x] transpile output successfully (getting require error with regenerator runtime not found)
+- [x] document webpack solution with regenerator runtime
+- [x] pass estimator.dev -> nearly 6% left
 
 ## Reference
 
