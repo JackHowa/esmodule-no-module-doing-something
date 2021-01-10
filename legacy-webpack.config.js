@@ -2,6 +2,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
+  // prevents arrow funcs via 
+  // https://webpack.js.org/migrate/5/#need-to-support-an-older-browser-like-ie-11
+  target: ['web', 'es5'],
   entry: './app.js',
   output: {
     filename: 'app.legacy.js',
@@ -11,6 +14,8 @@ module.exports = {
     rules: [
       {
         test: /\.m?js$/,
+        // don't transpile regenerator-runtime
+        exclude: [/regenerator-runtime/],
         use: {
           loader: 'babel-loader',
           options: {
@@ -28,8 +33,10 @@ module.exports = {
                 },
               ],
             ],
-            plugins: [['@babel/plugin-transform-arrow-functions', { spec: true }],
-            ]
+            // installs regenerator-runtime
+            // ignored for transpilation
+            // needs dep @babel/runtime
+            plugins: ['@babel/plugin-transform-runtime'],
           }
         }
       }

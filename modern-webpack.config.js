@@ -5,13 +5,13 @@ module.exports = {
   entry: './app.js',
   output: {
     filename: 'app.modern.mjs',
-    path: path.resolve(__dirname, 'dist'),
-
+    path: path.resolve(__dirname, 'dist')
   },
   module: {
     rules: [
       {
         test: /\.m?js$/,
+        exclude: [/regenerator-runtime/],
         use: {
           loader: 'babel-loader',
           options: {
