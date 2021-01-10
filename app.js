@@ -1,5 +1,3 @@
-// hopefully not used in modern
-
 const destructureThisArr = ['testing', 'esmodules']
 
 // destructure
