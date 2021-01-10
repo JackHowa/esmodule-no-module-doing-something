@@ -15,7 +15,7 @@ module.exports = {
       {
         test: /\.m?js$/,
         // don't transpile regenerator-runtime
-        exclude: [/regenerator-runtime/],
+        exclude: [/regenerator-runtime/, /core-js/],
         use: {
           loader: 'babel-loader',
           options: {
@@ -30,6 +30,8 @@ module.exports = {
                     chrome: '43',
                     safari: '9',
                   },
+                  debug: true,
+                  useBuiltIns: 'usage',
                 },
               ],
             ],

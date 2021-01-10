@@ -36,6 +36,7 @@
     "webpack-cli": "^4.3.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.5"
+    "@babel/runtime": "^7.12.5",
+    "core-js": "^2.6.12"
   }
 }
