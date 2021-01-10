@@ -16,7 +16,9 @@
     "esmodules",
     "nomodule",
     "module",
-    "mjs"
+    "mjs",
+    "babel",
+    "plugin-transform-runtime"
   ],
   "author": "jackhowa",
   "license": "MIT",
