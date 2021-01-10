@@ -23,6 +23,7 @@ module.exports = {
               [
                 '@babel/preset-env',
                 {
+                  modules: 'commonjs',
                   targets: {
                     edge: '14',
                     ie: '11',
@@ -30,8 +31,8 @@ module.exports = {
                     chrome: '43',
                     safari: '9',
                   },
-                  debug: true,
                   useBuiltIns: 'usage',
+                  corejs: 3
                 },
               ],
             ],

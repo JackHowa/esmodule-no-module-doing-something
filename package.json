@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
-    "core-js": "^2.6.12"
+    "core-js": "^3.8.2"
   }
 }
