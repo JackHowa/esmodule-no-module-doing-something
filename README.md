@@ -9,6 +9,8 @@ do crazy something with nomodule/module
 - [x] document webpack solution with regenerator runtime
 - [x] pass estimator.dev -> nearly 6% left
 
+debugging: https://github.com/babel/babel/discussions/12598
+
 ## Reference
 
 - https://stackoverflow.com/questions/57492546/what-is-the-difference-between-js-and-mjs-files
